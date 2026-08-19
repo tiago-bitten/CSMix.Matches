@@ -1,0 +1,9 @@
+# The build happens inside the image; a local binary would only bloat the
+# context and risk being copied over the real one.
+bin/
+*.exe
+
+.git/
+.github/
+.env
+*.md
